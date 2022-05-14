@@ -28,7 +28,7 @@ https://github.com/jefflai108/Contrastive-Predictive-Coding-PyTorch/issues/1
 https://github.com/jefflai108/Contrastive-Predictive-Coding-PyTorch/issues/9
 
 ## Requirements (mac os)
-Using python=3.8, miniconda, and 
+Using python=3.8, miniconda, and pytorch=1.11.0
 ```
 pip3 install torch torchvision
 conda install -y -c conda-forge h5py
