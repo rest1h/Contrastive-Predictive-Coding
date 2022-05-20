@@ -1,5 +1,6 @@
-# Reproducing Contrastive-Predictive-Coding
+# Reproducing Contrastive Predictive Coding
 ### Original code: https://github.com/jefflai108/Contrastive-Predictive-Coding-PyTorch
+The original code runs well on python 3.8 and pytorch 1.11.0
 
 ## Dataset
 ### Download below files from http://www.openslr.org/12/, and unzip files in ./LibriSpeech/  
@@ -14,16 +15,12 @@ train-clean-100.tar.gz
 ### Obtain the appropriate subsets of the LibriSpeech dataset, and convert all flac files to wav format.  
 
 ```
-wget http://www.openslr.org/resources/12/dev-clean.tar.gz  
-tar -xzvf dev-clean.tar.gz  
-wget http://www.openslr.org/resources/12/test-clean.tar.gz  
-tar -xzvf test-clean.tar.gz
 mv flac_to_wav.sh LibriSpeech
 cd LibriSpeech
 ./flac_to_wav.sh
 ```
 
-### Run wav2raw.py and generate_txt.py
+### Run wav2raw.py and generate_utterance.py
 https://github.com/jefflai108/Contrastive-Predictive-Coding-PyTorch/issues/1  
 https://github.com/jefflai108/Contrastive-Predictive-Coding-PyTorch/issues/9
 
